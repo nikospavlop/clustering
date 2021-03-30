@@ -1,0 +1,9 @@
+select city, 
+count(distinct case when cuisine_parent='Breakfast' then order_id end) as Breakfast_orders, 
+count(distinct case when cuisine_parent='Breakfast' then user_id end) as Breakfast_users,
+avg(basket) as avg_basket
+FROM `bi-2019-test.ad_hoc.orders_jan2021` 
+group by 1
+having count(*)>500
+order by 2 desc 
+limit 10

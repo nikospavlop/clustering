@@ -1,0 +1,13 @@
+google-cloud-bigquery==2.13.1
+google-cloud-datastore==2.1.0
+pandas-gbq==0.14.1
+pydata-google-auth==1.1.0
+google-cloud-bigquery-storage==2.3.0
+google-cloud-bigquery-connection==1.0.1
+google==3.0.0
+google-auth==1.28.0
+google-api-python-client==2.0.2
+pandas==1.2.3
+scikit-learn==0.24.1
+matplotlib==3.3.0
+ipython==7.22.0
