@@ -1,26 +1,29 @@
-#Customer segmentation
-
+Customer segmentation
+-
 This python application was developed in order to find clusters of customers which will be a valuable target group for a Marketing campaign about Coffee.
 Coffee offers the Breakfast cuisines.
 
-##Requirements
+Requirements
+-
 The application was build under Python 3.8 and contains the required libraries into the requirements.txt file.
 The IDE that has used for the development was PyCharm.
 
-##How to install and run the application
+How to install and run the application
+-
 Firstly, you need to clone the project from the github repository. Then make sure that you are into the customer_segmentation directory.
 
 Then, from the PyCharm terminal, run the following command:
-#####bash
+bash
 
 Create and activate a virtual environment to run the application and install its requirements with the following two commands:
-#####python3 -m venv venv
-#####source ./venv/bin/activate
+python3 -m venv venv
+source ./venv/bin/activate
 
 Run the setup.py file in order to install the dependencies of the project.
-#####python setup.py install
+python setup.py install
 
-##Run the application
-The main source code of the is the app.py file into the src folder. To run it, type the following command:
-#####python src/app.py
+Run the application
+-
+*The main source code of the is the app.py file into the src folder. To run it, type the following command:
+*python src/app.py
 
